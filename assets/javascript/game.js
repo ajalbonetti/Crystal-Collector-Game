@@ -32,6 +32,8 @@ function getrandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+// Win or Lose Function 
+
 function checkScore() {
 	if (totalScore == randomNumber) {
 		wins++;
